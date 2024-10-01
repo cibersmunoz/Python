@@ -1,0 +1,21 @@
+Introduce una cadena de texto: Hola mundo
+Texto nuevo: H
+Texto: Hola mundo
+Texto nuevo: Ho
+Texto: Hola mundo
+Texto nuevo: Hol
+Texto: Hola mundo
+Texto nuevo: Hola
+Texto: Hola mundo
+Texto nuevo: Hola 
+Texto: Hola mundo
+Texto nuevo: Hola m
+Texto: Hola mundo
+Texto nuevo: Hola mu
+Texto: Hola mundo
+Texto nuevo: Hola mun
+Texto: Hola mundo
+Texto nuevo: Hola mund
+Texto: Hola mundo
+Texto nuevo: Hola mundo
+Texto: Hola mundo
