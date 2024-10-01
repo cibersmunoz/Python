@@ -1,9 +1,17 @@
 import requests
+import argparse
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Comprobador enlaces")
+    parser.add_argument("path", help="El archivo a analizar")
+    return parser.parse_args()
+
+
 def iterar_archivo(path, funcion):
     try:
         with open(path,"r") as archivo:
             for linea in archivo:
-                limpio = linea.strip()
+                limpio = linea.strip() # Elimina espacios en blanco y saltos de linea
                 funcion(limpio)
     except FileNotFoundError:
         print("Ese archivo no existe")
@@ -33,5 +41,8 @@ def write_file(code, url, file="resultados.txt"):
 def capitalize(string):
     print(string.upper())
 
-iterar_archivo("domains.txt", check_status)
+args = parse_args()
+
+
+iterar_archivo(args.path, check_status)
 
